@@ -1,0 +1,88 @@
+/* Laptop Styles (for screens smaller than 12585px) i.e 0-767 */
+@media(max-width:1500px){
+    .left-header-ul .lefthl1 a, .lefthl2 a, .lefthl3 a{
+        display: none;
+    }
+}
+
+@media(max-width:1499px){
+    .rightH-leftside{
+        display:inline-block;
+        gap: 9rem;
+        justify-content: space-around;
+        margin-left: -60rem;
+    }
+    .sec4div{
+        flex: 1 1 calc(32px)
+    }
+}
+@media(max-width:1344px){
+    .navmenu ul{
+        display: none;
+    }
+    .hiddenmenu{
+        display: block;   
+    }
+}
+@media(max-width:1270px){
+    .need{
+        display: none;
+    }
+    .p-or{
+        display: none;  
+    }
+    .phone-line2{
+        display: block;
+    }
+}
+@media(max-width:1268px){
+    .rightH-leftside{
+        justify-content: center;
+        margin-left: -35rem;
+    }
+
+}
+
+@media(max-width:757px){
+    .rightH-leftside{
+        justify-content: center;
+        margin-left: -10rem;
+    }
+}
+@media(max-width:656px){
+    .rightH-leftside{
+        justify-content: center;
+        margin-right: -2rem;
+    }
+}
+@media(max-width:620px){
+    .rightH-leftside{
+        justify-content: center;
+        margin-right: -5rem;
+    }
+}
+@media(max-width:565px){
+    .rightH-leftside{
+        justify-content: center;
+        margin-right: -5rem;
+    }
+}
+
+@media(max-width:500px){
+    .rightH-leftside{
+        justify-content: center;
+        margin-right: -5rem;
+    }
+}
+
+@media(max-width:499px){
+    .rightH-leftside{
+        justify-content: center;
+        margin-right: -10rem;
+    }
+}
+@media(max-width:450px){
+    .rightH-rightside img{
+        display: none;
+    }
+}
